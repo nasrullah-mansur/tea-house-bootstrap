@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Common CSS */
+:root {
+    --heading-font: "Manrope", sans-serif;
+    --body-font: "Plus Jakarta Sans", sans-serif;
+    --heading-color: rgb(28, 28, 28)
+
+}
+
+body {
+    font-family: var(--heading-font);
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    font-weight: 800;
+    color: var(--heading-color);
+}
+
+
+/* shared style  */
+.heading{
+font-size: 2.8rem;
+line-height: 61px;
+}
+
+.sub-heading{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+.paragraph{
+color: rgb(119, 119, 119);
+font-family: var(--heading-font);
+font-size: 1rem;
+font-weight: 500;
+line-height: 28px;
+}
+
+/* Custom Bootstrap */
+
+.btn-primary {
+    background-image: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+    border-color: transparent;
+    transition: all ease .4s;
+}
+
+.btn-primary:hover {
+    border-color: transparent;
+    background-image: linear-gradient(-270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+}
+
+/*  */
+
+/* Banner */
+.banner {
+    margin-top: 68px;
+}
+
+.banner h1 {
+    font-size: 5rem;
+    line-height: 100px;
+}
+
+.banner p {
+    max-width: 513px;
+    color:  rgb(119, 119, 119);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.gratting-box{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+
+.gratting{
+    padding: 20px 27px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+}
+
+.gratting i{
+    color: rgb(255, 200, 80);
+    font-size: 20px;
+}
+
+.gratting span{
+margin-right: 15px;
+}
+
+.gratting strong{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.gratting p{
+    font-size: 1rem;
+    color: #777777;
+    margin: 0;
+}
+
+/* product related style start  */
+.product{
+    margin-top: 70px;
+}
+.product-text{
+    max-width: 901px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-image{
+    padding: 30px 66px 0px 66px;
+    border-radius: 10px;
+    background-image: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0) 100%);
+}
+
+.green-tea{
+    width: 92%;
+}
+/* product related style end  */
+
+
